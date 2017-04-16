@@ -3,11 +3,20 @@
 
 @import "palette_color";
 
-nav:active {
-  border-color: #FFAB91;
+.mdl-layout__header {
+  background-color: #424242;
 }
 
-.mdl-grid {
+.is-active {
+  border-bottom: 3px solid #FFAB91;
+}
+
+.mdl-grid:nth-of-type(even) {
+  background-color: #efffee;
+
+}
+
+.mdl-grid:nth-of-type(even) {
   background-color: #efffee;
 
 }
@@ -21,7 +30,7 @@ nav:active {
   color: white;
 }
 
-.woodboard::after {
+.woodboard {
   background-image: url("../images/wood-boards.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +41,7 @@ nav:active {
   filter: brightness(80%) contrast(70%);
 }
 
-.woodzoom::before {
+.woodzoom {
   background-image: url(../images/wood-zoom.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
