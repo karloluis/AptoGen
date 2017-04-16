@@ -13,11 +13,11 @@
 
 }
 
-.woodboard .woodzoom {
+.woodboard, .woodzoom {
   color: white;
 }
 
-.woodboard:before {
+.woodboard:after {
   background-image: url("../images/wood-boards.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
