@@ -23,7 +23,7 @@
 
 .banner {
   height: 650px;
-
+  color: #FFAB91;
 }
 
 .woodboard, .woodzoom {
@@ -32,7 +32,7 @@
 
 .woodboard {
   background-image: url("../images/wood-boards.jpeg");
-  background-size: cover;
+  background-size: initial;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center 40%;
@@ -43,7 +43,7 @@
 
 .woodzoom {
   background-image: url(../images/wood-zoom.jpeg);
-  background-size: cover;
+  background-size: initial;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center 40%;
