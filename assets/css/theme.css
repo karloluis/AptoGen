@@ -1,0 +1,9 @@
+
+.wood-bg {
+  background-image: url("https://karloluis.github.io/AptoGen/assets/images/wood-boards");
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  filter: brightness(40%) contrast(70%);
+}
