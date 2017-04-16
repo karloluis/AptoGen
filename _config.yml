@@ -1,0 +1,8 @@
+name: Github Pages workshop
+markdown: kramdown
+
+# permalink: /blog/:year/:month/:day/:title
+baseurl: /AptoGen
+
+sass:
+  style: :compressed
