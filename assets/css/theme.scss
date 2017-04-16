@@ -65,7 +65,7 @@
 
 .banner:nth-of-type(6) {
   &.woodzoom {
-    &:before {
+    &::before {
       background-image: url(../images/wood-zoom.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
