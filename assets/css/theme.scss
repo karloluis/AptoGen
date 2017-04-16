@@ -29,7 +29,7 @@
 }
 
 .woodboard::before {
-  background-image: url("../images/wood-boards.jpeg");
+  background-image: url("{{ site.baseurl }}/assets/images/wood-boards.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -67,7 +67,7 @@
 .banner:nth-of-type(6) {
   &.woodzoom {
     &::before {
-      background-image: url(../images/wood-zoom.jpeg);
+      background-image: url("{{ site.baseurl }}/assets/images/wood-falling.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
