@@ -20,68 +20,68 @@
   height: 650px;
   color: yellow;
   background-color: #efffee;
-}
 
-.banner:nth-of-type(1) {
-  height: 650px;
-  color: #FFAB91;
-  background-color: #efffee;
-}
-
-.banner:nth-of-type(2){
-  &.woodboard {
-    &::before {
-      background-image: url("{{ site.baseurl }}/assets/images/wood-boards.jpeg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center 40%;
-
-      // position: absolute;
-      filter: brightness(80%) contrast(70%);
-    }
-
-  height: 650px;
-  color: #FFAB91;
-  background-color: #efffee;
-  }
-}
-
-.banner:nth-of-type(3) {
-  height: 650px;
-  color: #FFAB91;
-  background-color: #efffee;
-  justify-content:         space-around;
-}
-
-.banner:nth-of-type(4) {
-  height: 650px;
-  color: #FFAB91;
-  background-color: #efffee;
-}
-
-.banner:nth-of-type(5) {
-  height: 650px;
-  color: #FFAB91;
-  background-color: #efffee;
-}
-
-.banner:nth-of-type(6) {
-  &.woodzoom {
-    &::before {
-      background-image: url("{{ site.baseurl }}/assets/images/wood-falling.jpeg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      // background-position: center 40%;
-
-      // position: absolute;
-      filter: brightness(80%) contrast(70%);
-    }
-
-
+  &:nth-of-type(1) {
     height: 650px;
     color: #FFAB91;
     background-color: #efffee;
+  }
+
+  &:nth-of-type(2){
+    &.woodboard {
+      &::before {
+        background-image: url("{{ site.baseurl }}/assets/images/wood-boards.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center 40%;
+
+        // position: absolute;
+        filter: brightness(80%) contrast(70%);
+      }
+
+      height: 650px;
+      color: #FFAB91;
+      background-color: #efffee;
+    }
+  }
+
+  &:nth-of-type(3) {
+    height: 650px;
+    color: #FFAB91;
+    background-color: #efffee;
+    justify-content:         space-around;
+  }
+
+  &:nth-of-type(4) {
+    height: 650px;
+    color: #FFAB91;
+    background-color: #efffee;
+  }
+
+  &:nth-of-type(5) {
+    height: 650px;
+    color: #FFAB91;
+    background-color: #efffee;
+  }
+
+  &:nth-of-type(6) {
+    &.woodzoom {
+      &::before {
+        background-image: url("{{ site.baseurl }}/assets/images/wood-falling.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        // background-position: center 40%;
+
+        // position: absolute;
+        filter: brightness(80%) contrast(70%);
+      }
+
+
+      height: 650px;
+      color: #FFAB91;
+      background-color: #efffee;
+    }
   }
 }
