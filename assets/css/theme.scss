@@ -4,15 +4,19 @@
 @import "palette_color";
 
 body {
-  background-color: #041B04;
+  background-color: #efffee;
 
+}
+
+banner {
+  height: 400px;
 }
 
 .wood-bg {
   background-image: url("../images/wood-boards.jpeg");
-  background-size: 100% 600px;
+  background-size: 100% 400px;
   background-repeat: no-repeat;
 
   // position: absolute;
-  // filter: brightness(40%) contrast(70%);
+  filter: brightness(80%) contrast(70%);
 }
