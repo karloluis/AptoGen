@@ -19,15 +19,17 @@
 
   // position: absolute;
   filter: brightness(80%) contrast(70%);
-
+  color: white;
 }
 
 .woodzoom {
   background-image: url("../images/wood-zoom.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 40%;
 
   // position: absolute;
   filter: brightness(80%) contrast(70%);
-
+  color: white;
 }
