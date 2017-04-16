@@ -9,7 +9,8 @@
 }
 
 .banner {
-  height: 400px;
+  height: 650px;
+
 }
 
 .woodboard {
@@ -19,7 +20,9 @@
 
   // position: absolute;
   filter: brightness(80%) contrast(70%);
-  color: white;
+  section {
+    color: white;
+  }
 }
 
 .woodzoom {
@@ -31,5 +34,7 @@
 
   // position: absolute;
   filter: brightness(80%) contrast(70%);
-  color: white;
+  section {
+    color: white
+  }
 }
