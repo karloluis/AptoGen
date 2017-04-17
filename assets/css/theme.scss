@@ -2,19 +2,24 @@
 ---
 
 @import "palette_color";
-
-.mdl-layout__header {
-  background-color: #424242;
-}
-
-.is-active {
-  border-bottom: 3px solid #FFAB91;
-}
+@@import "./partials/nav"
 
 .banner {
   height: 650px;
   color: yellow;
   background-color: #efffee;
+
+  &section {
+    &h2 {
+      text-align: left;
+      padding: 130px 0px 40px 230px;
+    }
+
+    &p {
+      text-align: left;
+      padding: 0px;
+    }
+  }
 
   &:nth-of-type(1) {
     height: 650px;
@@ -45,7 +50,10 @@
     height: 650px;
     color: #FFAB91;
     background-color: #efffee;
-    justify-content:         space-around;
+    justify-content: space-around;
+
+    text-align: left;
+    padding: 0px;
   }
 
   &:nth-of-type(4) {
